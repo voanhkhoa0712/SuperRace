@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/custom_activity_border">
+
+    <TextView
+        android:id="@+id/activity_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Ellie Wiliams"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_main"/>
+
+    <TextView
+        android:id="@+id/activity_time_posted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="54 m"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/activity_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Okay..."
+        android:textSize="@dimen/text_size_normal"/>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/activity_track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/activity_label_time"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/activity_label_time"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <TextView
+                android:id="@+id/activity_label_distance"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/activity_label_distance"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <TextView
+                android:id="@+id/activity_label_pace"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/activity_label_pace"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_normal"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/activity_value_time"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00:45:15"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <TextView
+                android:id="@+id/activity_value_distance"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5.25 km"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <TextView
+                android:id="@+id/activity_value_pace"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="7.536 km/h"
+                android:textSize="@dimen/text_size_normal"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

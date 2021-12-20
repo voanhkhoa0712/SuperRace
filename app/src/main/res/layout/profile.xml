@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Email"
+            android:textSize="@dimen/text_size_main"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textSize="@dimen/text_size_main" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="First Name"
+            android:textSize="@dimen/text_size_main"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_profile_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:padding="8dp"
+            android:textSize="@dimen/text_size_main" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Last Name"
+            android:textSize="@dimen/text_size_main"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_profile_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:padding="8dp"
+            android:textSize="@dimen/text_size_main" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Date of birth"
+            android:textSize="@dimen/text_size_main"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_profile_date_of_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:padding="8dp"
+            android:textSize="@dimen/text_size_main"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Gender"
+            android:textSize="@dimen/text_size_main"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_profile_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:padding="8dp"
+            android:textSize="@dimen/text_size_main"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Height (cm)"
+            android:textSize="@dimen/text_size_main"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_profile_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:padding="8dp"
+            android:textSize="@dimen/text_size_main"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Weight (kg)"
+            android:textSize="@dimen/text_size_main"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_profile_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:padding="8dp"
+            android:textSize="@dimen/text_size_main"/>
+
+        <Button
+            android:id="@+id/btn_profile_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:backgroundTint="@color/supThemeColor"
+            android:text="Activities History"/>
+
+        <Button
+            android:id="@+id/btn_profile_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_activity_border"
+            android:backgroundTint="@color/supThemeColor"
+            android:text="Log out"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SUPER RACE</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">User Name</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="title_activity_control">Control</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_event">Event</string>
+    <string name="action_record">Record</string>
+    <string name="action_history">History</string>
+    <string name="action_personal">Profile</string>
+    <string name="activity_label_time">Time</string>
+    <string name="activity_label_distance">Distance</string>
+    <string name="activity_label_pace">Pace</string>
+    <string name="add_event">ADD EVENT</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="intenal_data">com.example.login</string>
+    <string name="title_activity_record">RecordActivity</string>
+
+    <!-- Google API key-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD1nIccLSX4X52g4x0XmrfD6ClQ29TOFKg</string>
+</resources>
