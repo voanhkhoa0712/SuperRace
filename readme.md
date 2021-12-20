@@ -1,4 +1,5 @@
-#SuperRace (UpRace/42Race Clone)
+# SuperRace (UpRace/42Race Clone)
+
 <span style="font-size:1.5em;">Final project in Introduction to Software Engineering class
 
 ## Teammate:
